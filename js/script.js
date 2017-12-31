@@ -1,12 +1,18 @@
-function plus() {
-	var num1, num2, result;
-	num1 = document.getElementById('num1').value;
-	num1 = parseInt(num1);
-
-	num2 = document.getElementById('num2').value;
-	num2 = parseInt(num2);
-
-	result = num1 + num2;
-	document.getElementById('out').innerHTML = result;
-
-}
+ $(document).ready(function(){
+        $("#anchor-link-1").on("click", function(){
+            var scroll=$("#services").offset().top;
+            $('html, body').animate({scrollTop: scroll}, 2000);
+        });
+        $("#anchor-link-2").on("click", function(){
+            var scroll=$("#portfolio").offset().top;
+            $('html, body').animate({scrollTop: scroll}, 2000);
+        });
+        $("#anchor-link-3").on("click", function(){
+            var scroll=$("#anchor-3").offset().top;
+            $('html, body').animate({scrollTop: scroll}, 2000);
+        });
+        $("#anchor-link-4").on("click", function(){
+            var scroll=$("#anchor-4").offset().top;
+            $('html, body').animate({scrollTop: scroll}, 2000);
+        });
+    });
