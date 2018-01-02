@@ -70,7 +70,7 @@
   background: #816811;
 }
 
-.services {
+.services, .about {
   padding-top: 115px;
 }
 
@@ -82,12 +82,13 @@
 }
 
 .description {
-  font: bold 16px/16px Arial, sans-seerif;
+  font: 16px/16px Arial, sans-seerif;
   color: #777777;
+  line-height: 25px;
   padding-bottom: 80px;
 }
 
-.title-services > p {
+.description, .title-services > p {
   font: 18px Arial, sans-seerif;
   color: #777777;
   padding-bottom: 120px;
@@ -101,7 +102,69 @@
   padding: 20px 0;
 }
 
+.body-portfolio {
+  padding-bottom: 75px;
+}
+
+.body-portfolio:nth-last-child(1),
+.body-portfolio:nth-last-child(1),
+.body-portfolio:nth-last-child(1) {
+  padding-bottom: 0;
+}
+
 .portfolio {
   background-color: #f7f7f7;
   padding-top: 115px;
+}
+
+.portfolio > h2 {
+  font: bold 40px/40px Arial, sans-seerif;
+  color: #222222;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.title-portfolio {
+  padding-top: 30px;
+}
+
+span {
+  font: bold 14px Times New Roman, sans-seerif;
+  color: #737373;
+  padding-top: 5px;
+}
+
+.about > h2 {
+  font: bold 40px/40px Arial, sans-seerif;
+  color: #222222;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.description-about {
+  font: 16px Arial, sans-seerif;
+  color: #777777;
+  line-height: 25px;
+}
+
+.text-about > h5 {
+  font: bold 18px Arial, sans-seerif;
+  color: #222222;
+}
+
+.img-about > img {
+  padding-left: 90px;
+}
+
+.img-about:after {
+  content: '';
+  display: block;
+  height: 94px;
+  width: 3px;
+  background-color: #F1F1F1;
+  margin-left: 180px;
+}
+
+.img-about-1 {
+  padding-right: 150px;
 }
