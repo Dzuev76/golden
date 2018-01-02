@@ -152,19 +152,30 @@ span {
   color: #222222;
 }
 
-.img-about > img {
-  padding-left: 90px;
+.text-bottom {
+  margin-bottom: 120px;
 }
 
-.img-about:after {
-  content: '';
-  display: block;
-  height: 94px;
-  width: 3px;
-  background-color: #F1F1F1;
-  margin-left: 180px;
+/* lg-размер (<=1199px) */
+@media (max-width: 1199px) {
+  /* CSS для ширины от 992px до 1199px */
 }
 
-.img-about-1 {
-  padding-right: 150px;
+/* md-размер (<=991px) */
+@media (max-width: 991px) {
+  img {
+    display:block;
+    margin: auto;
+  }
 }
+
+/* sm-размер (<=768px) */
+@media (max-width: 767px) {
+
+}
+
+/* xs-размер (<=575px) */
+@media (max-width: 575px) {
+
+ }
+
