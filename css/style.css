@@ -6,7 +6,7 @@
 
 .header {
   height: 726px;
-  background: url(../img/home_bg.jpg) no-repeat center bottom;
+  background: url(../img/home_bg.png) no-repeat center bottom;
   -webkit-background-size: cover;
   background-size: cover;
   margin-bottom: 120px;
