@@ -156,6 +156,45 @@ span {
   margin-bottom: 120px;
 }
 
+.team {
+  padding-top: 110px;
+  background-color: #f9f9f9;
+}
+
+.name {
+  font: bold 18px Arial, sans-seerif;
+  color: #222222;
+  padding-top: 25px;
+}
+
+.description-name{
+  font: 18px Arial, sans-seerif;
+  color: #777777;
+  line-height: 25px;
+  padding-bottom: 15px;
+}
+
+.item-team img {
+  display: inline-block;
+}
+
+h1 {
+  font: 16px Arial, sans-seerif;
+  color: #777777;
+  line-height: 25px;
+  padding-top: 50px;
+  padding-bottom: 120px;
+}
+
+.logo {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.logo img {
+  padding-top: 30px;
+}
+
 /* lg-размер (<=1199px) */
 @media (max-width: 1199px) {
   /* CSS для ширины от 992px до 1199px */
