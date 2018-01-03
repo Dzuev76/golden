@@ -195,6 +195,53 @@ h1 {
   padding-top: 30px;
 }
 
+a.social-tw {
+  display: inline-block;
+  width: 41px;
+  height: 41px;
+  background-image: url(../img/Twitter.png);
+}
+
+a.social-tw:hover {
+  background-image: url(../img/tw.png);
+}
+
+a.social-fb {
+  display: inline-block;
+  width: 41px;
+  height: 41px;
+  background-image: url(../img/Facebook.png);
+}
+
+a.social-fb:hover {
+  background-image: url(../img/fb.png);
+}
+
+a.social-pn {
+  display: inline-block;
+  width: 41px;
+  height: 41px;
+  background-image: url(../img/Pinterest.png);
+}
+
+a.social-pn:hover {
+  background-image: url(../img/pn.png);
+}
+
+a.social-gl {
+  display: inline-block;
+  width: 41px;
+  height: 41px;
+  background-image: url(../img/Google+.png);
+}
+
+a.social-gl:hover {
+  background-image: url(../img/gl.png);
+}
+
+
+
+
 /* lg-размер (<=1199px) */
 @media (max-width: 1199px) {
   /* CSS для ширины от 992px до 1199px */
