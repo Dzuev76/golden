@@ -9,10 +9,10 @@ $(document).ready(function(){
         });
         $("#anchor-link-3").on("click", function(){
             var scroll=$("#about").offset().top;
-            $('html, body').animate({scrollTop: scroll}, 2000);
+            $('html, body').animate({scrollTop: scroll}, 3000);
         });
         $("#anchor-link-4").on("click", function(){
             var scroll=$("#contact").offset().top;
-            $('html, body').animate({scrollTop: scroll}, 2000);
+            $('html, body').animate({scrollTop: scroll}, 4000);
         });
     });

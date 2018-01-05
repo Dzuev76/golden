@@ -66,6 +66,10 @@
   cursor: pointer;
 }
 
+a.nav-link {
+  cursor: pointer;
+}
+
 .btn:hover {
   background: #816811;
 }
@@ -129,9 +133,10 @@
 }
 
 span {
-  font: bold 14px Times New Roman, sans-seerif;
-  color: #737373;
+  font: bold 18px Times New Roman, sans-seerif;
+  color: #222222;
   padding-top: 5px;
+  text-transform: uppercase;
 }
 
 .about > h2 {
@@ -178,12 +183,12 @@ span {
   display: inline-block;
 }
 
-h1 {
-  font: 16px Arial, sans-seerif;
-  color: #777777;
-  line-height: 25px;
-  padding-top: 50px;
-  padding-bottom: 120px;
+.team > h2 {
+  font: bold 40px/40px Arial, sans-seerif;
+  color: #222222;
+  text-transform: uppercase;
+  padding-top: 100px;
+  padding-bottom: 25px;
 }
 
 .logo {
@@ -193,6 +198,10 @@ h1 {
 
 .logo img {
   padding-top: 30px;
+}
+
+.social {
+  padding-bottom: 50px;
 }
 
 a.social-tw {
@@ -239,29 +248,86 @@ a.social-gl:hover {
   background-image: url(../img/gl.png);
 }
 
-
-
-
-/* lg-размер (<=1199px) */
-@media (max-width: 1199px) {
-  /* CSS для ширины от 992px до 1199px */
+.description-team {
+  font: 16px Arial, sans-seerif;
+  color: #777777;
+  line-height: 25px;
+  padding-bottom: 115px;
 }
 
-/* md-размер (<=991px) */
+.contact {
+  background-image: url(../img/Map-Image.png);
+  background-attachment: cover;
+  background-repeat: no-repeat;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+}
+
+.contact > h2 {
+  font: bold 40px/40px Arial, sans-seerif;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding-top: 100px;
+  padding-bottom: 25px;
+}
+
+.contact > p {
+  padding-bottom: 50px;
+}
+
+.form-group {
+ /* width: 454px;*/
+  padding-bottom: 10px;
+}
+
+.btn-bottom {
+  padding-bottom: 90px;
+}
+
+textarea {
+  height: 165px;
+}
+
+.copyright {
+  font: 14px/14px Arial, sans-seerif;
+  color: #555555;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.copyright-img {
+  padding-right: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+@media (max-width: 1199px) {
+
+}
+
 @media (max-width: 991px) {
   img {
     display:block;
     margin: auto;
   }
+  textarea {
+    margin: auto;
+  }
+
+  .home > h1 {
+    font-size: 32px;
+  }
 }
 
-/* sm-размер (<=768px) */
 @media (max-width: 767px) {
-
+  .copyright-img  {
+    text-align: center;
+  }
 }
 
-/* xs-размер (<=575px) */
 @media (max-width: 575px) {
-
+  .home {
+    padding-top: 50px;
+  }
  }
 
