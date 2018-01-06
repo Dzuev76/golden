@@ -256,11 +256,10 @@ a.social-gl:hover {
 }
 
 .contact {
-  background-image: url(../img/Map-Image.png);
-  background-attachment: cover;
-  background-repeat: no-repeat;
-  -webkit-background-size: 100%;
-  background-size: 100%;
+  height: 676px;
+  background: url(../img/Map-Image.png) no-repeat center bottom;
+  -webkit-background-size: cover;
+  background-size: cover;
 }
 
 .contact > h2 {
@@ -276,7 +275,6 @@ a.social-gl:hover {
 }
 
 .form-group {
- /* width: 454px;*/
   padding-bottom: 10px;
 }
 
@@ -302,7 +300,9 @@ textarea {
 }
 
 @media (max-width: 1199px) {
-
+  img {
+    display:block;
+    margin: auto;
 }
 
 @media (max-width: 991px) {
@@ -329,5 +329,14 @@ textarea {
   .home {
     padding-top: 50px;
   }
+
+  .contact > h2 {
+    padding: 20px 0;
+
+  }
+
+  .contact > p {
+  padding-bottom: 10px;
+}
  }
 
